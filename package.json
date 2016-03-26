@@ -1,6 +1,6 @@
 {
   "name": "alphabet-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "All in one utility for alphabet things",
   "main": "index.js",
   "scripts": {

@@ -1,11 +1,11 @@
 # Alphabet Generator
-> Simple alphabet generator
+> Simple Alphabet Generator
 
 ### How to use
 ```javascript
-var alpha = require('./index.js');
+var alpha = require('alphabet-generator');
 
-// Get all alphabets
+// Get array of alphabets
 console.log(alpha.get());
 
 // Get alphabets in range
