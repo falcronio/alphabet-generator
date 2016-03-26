@@ -4,7 +4,7 @@
   "description": "All in one utility for alphabet things",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "istanbul cover --include-all-sources jasmine-node test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/falcronio/alphabet-generator/issues"
   },
-  "homepage": "https://github.com/falcronio/alphabet-generator#readme"
+  "homepage": "https://github.com/falcronio/alphabet-generator#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "jasmine-node": "^1.14.5"
+  }
 }

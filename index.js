@@ -2,13 +2,19 @@ var alphabets = [
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
     'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
     'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
-];
+], alphabetsQuery;
 
-var alphabetsQuery = [].concat(alphabets);
+resetAlphabets();
+
+function resetAlphabets() {
+    alphabetsQuery = [].concat(alphabets);
+}
 
 var AlphabetGenerator = {
     get: function() {
-        return alphabetsQuery;
+        var result = [].concat(alphabetsQuery);
+        resetAlphabets();
+        return result;
     },
     range: function(lower, upper) {
         lower = lower || 'A';

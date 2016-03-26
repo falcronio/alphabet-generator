@@ -1,4 +1,5 @@
 # Alphabet Generator
+[![Build Status](https://travis-ci.org/falcronio/alphabet-generator.svg?branch=master)](https://travis-ci.org/falcronio/alphabet-generator)
 [![npm version](https://badge.fury.io/js/alphabet-generator.svg)](https://badge.fury.io/js/alphabet-generator)
 > Simple Alphabet Generator
 
