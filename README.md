@@ -1,4 +1,5 @@
 # Alphabet Generator
+[![npm version](https://badge.fury.io/js/alphabet-generator.svg)](https://badge.fury.io/js/alphabet-generator)
 > Simple Alphabet Generator
 
 ### How to use
