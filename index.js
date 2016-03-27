@@ -19,9 +19,12 @@ var AlphabetGenerator = {
     range: function(lower, upper) {
         lower = lower || 'A';
         upper = upper || 'Z';
-        alphabetsQuery = alphabets.filter(function(alphabet) {
-            return alphabet >= lower && alphabet <= upper;
-        });
+        var lowerCharCode = lower.charCodeAt(0);
+        var upperCharCode = upper.charCodeAt(0);
+        alphabetsQuery = [];
+        for (var i = lowerCharCode; i <= upperCharCode; i++) {
+            alphabetsQuery.push(String.fromCharCode(i));
+        }
         return this;
     },
     random: function(n) {
